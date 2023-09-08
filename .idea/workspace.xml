@@ -9,16 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46eb1d2d-c85b-4fa7-8f44-336d5e033d28" name="Changes" comment="nastroen web2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/controllers/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/show.html" afterDir="false" />
+    <list default="true" id="46eb1d2d-c85b-4fa7-8f44-336d5e033d28" name="Changes" comment="nastroen web3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/controllers/CarsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/controllers/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/dao/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Zver/IdeaProjects/Users_web3",
+    "last_opened_file_path": "C:/Users/Zver/IdeaProjects/Users_web/src/main/webapp/WEB-INF/views/user",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,15 +77,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zver\IdeaProjects\Users_web\src\main\webapp\WEB-INF\views\user" />
       <recent name="C:\Users\Zver\IdeaProjects\Users_web\src\main\resources" />
       <recent name="C:\Users\Zver\IdeaProjects\Users_web\src\main\java\ru\zotov\springmvc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.zotov.springmvc.controllers" />
       <recent name="ru.zotov.springmvc.config" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.80" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.80" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../../Program Files/Java/jdk-19" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/users/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Users_web:war exploded">
@@ -188,7 +187,8 @@
       <workItem from="1694076790891" duration="1781000" />
       <workItem from="1694079602880" duration="5584000" />
       <workItem from="1694085230256" duration="11885000" />
-      <workItem from="1694168444622" duration="7419000" />
+      <workItem from="1694168444622" duration="7487000" />
+      <workItem from="1694177428999" duration="4214000" />
     </task>
     <task id="LOCAL-00001" summary="nastroen web">
       <option name="closed" value="true" />
@@ -206,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694168969983</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nastroen web3">
+      <option name="closed" value="true" />
+      <created>1694177302495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694177302495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +234,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nastroen web" />
     <MESSAGE value="nastroen web2" />
-    <option name="LAST_COMMIT_MESSAGE" value="nastroen web2" />
+    <MESSAGE value="nastroen web3" />
+    <option name="LAST_COMMIT_MESSAGE" value="nastroen web3" />
   </component>
 </project>

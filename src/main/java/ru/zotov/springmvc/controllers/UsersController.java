@@ -19,14 +19,19 @@ public class UsersController {
         this.userDao= userDao;
     }
 
-    @GetMapping()
-    public String index(Model model){
-        model.addAttribute("user",userDao.index());
-        return "user/index";
-    }
-    @GetMapping("/{id}")
-    public String show(@PathVariable("id") int id,Model model){
-        model.addAttribute("user",userDao.show(id));
-     return "user/show";
+//    @GetMapping()
+//    public String index(Model model){
+//        model.addAttribute("user",userDao.index());
+//        return "user/index";
+//    }
+//    @GetMapping("/{id}")
+//    public String show(@PathVariable("id") int id,Model model){
+//        model.addAttribute("user",userDao.show(id));
+//     return "user/show";
+//    }
+    @GetMapping(value = "/")
+    public String printCarsOfCount(Model model) {
+        model.addAttribute("user", userDao.index());
+        return "user/users";
     }
 }

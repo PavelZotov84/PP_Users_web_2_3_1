@@ -14,7 +14,7 @@ public class UserDao {
         user.add(new User(2,"Elena","Zotova","elena@rambler.ru"));
         user.add(new User(3,"Vlad","Zotov","vlad@rambler.ru"));
         user.add(new User(4,"Elisey","Zotov","elisey@rambler.ru"));
-        user.add(new User(1,"Benny","Zotov","benny@rambler.ru"));
+        user.add(new User(5,"Benny","Zotov","benny@rambler.ru"));
     }
     public List<User> index(){
         return user;
