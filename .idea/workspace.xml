@@ -9,11 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46eb1d2d-c85b-4fa7-8f44-336d5e033d28" name="Changes" comment="nastroen web">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="46eb1d2d-c85b-4fa7-8f44-336d5e033d28" name="Changes" comment="nastroen web2">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/controllers/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/zotov/springmvc/controllers/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,6 +83,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zver\IdeaProjects\Users_web\src\main\resources" />
       <recent name="C:\Users\Zver\IdeaProjects\Users_web\src\main\java\ru\zotov\springmvc" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.zotov.springmvc.config" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,7 +188,7 @@
       <workItem from="1694076790891" duration="1781000" />
       <workItem from="1694079602880" duration="5584000" />
       <workItem from="1694085230256" duration="11885000" />
-      <workItem from="1694168444622" duration="378000" />
+      <workItem from="1694168444622" duration="7419000" />
     </task>
     <task id="LOCAL-00001" summary="nastroen web">
       <option name="closed" value="true" />
@@ -190,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694089406465</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nastroen web2">
+      <option name="closed" value="true" />
+      <created>1694168969983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694168969983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +225,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nastroen web" />
-    <option name="LAST_COMMIT_MESSAGE" value="nastroen web" />
+    <MESSAGE value="nastroen web2" />
+    <option name="LAST_COMMIT_MESSAGE" value="nastroen web2" />
   </component>
 </project>

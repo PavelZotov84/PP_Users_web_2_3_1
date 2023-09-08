@@ -1,4 +1,4 @@
-package ru.zotov.springmvc;
+package ru.zotov.springmvc.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
