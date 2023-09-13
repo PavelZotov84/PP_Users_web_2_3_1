@@ -1,9 +1,19 @@
 package ru.zotov.springmvc.models;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "users")
 public class User {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "last_name")
     private String lastName;
+    @Column(name = "email")
     private String email;
 
     public User(int id, String name, String lastName, String email) {
@@ -11,6 +21,9 @@ public class User {
         this.name = name;
         this.lastName = lastName;
         this.email = email;
+    }
+
+    public User() {
     }
 
     public int getId() {
@@ -44,4 +57,5 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }

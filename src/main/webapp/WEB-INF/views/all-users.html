@@ -13,20 +13,25 @@
 <h1>All users</h1>
 <table border="1">
     <tr>
-<!--        <th>No</th>-->
         <th>Id</th>
         <th>Name</th>
         <th>LastName</th>
         <th>Email</th>
-
+        <th>Operations</th>
     </tr>
     <tr th:each="user, state : ${user}">
-<!--        <td th:utext="${state.count}">No</td>-->
         <td th:utext="${user.getId()}">Id</td>
         <td th:utext="${user.getName()}">Name</td>
         <td th:utext="${user.getLastName()}">Lastname</td>
         <td th:utext="${user.getEmail()}">Email</td>
+        <td>
+            <a type="button" th:href="@{/users/{id}/edit(id=${user.getId()})}">Edit</a>
+            <a type="button" th:href="@{/users/{id}/delete(id=${user.getId()})}">Delete</a>
+        </td>
     </tr>
 </table>
+<br>
+<input type="button" value="Add"
+       onclick="window.location.href= 'users/new' "/>
 </body>
 </html>
